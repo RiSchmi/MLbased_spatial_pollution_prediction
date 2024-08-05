@@ -1,0 +1,7 @@
+pandas==1.5.3 # error analysis, spatial lag, spatial test split, 
+sklaern==1.5.1 # error analysis, spatial test split, 
+matplotlib==3.7.1 # error analysis, spatial test split, 
+seaborn==0.13.2 # error analysis
+shap==0.46.0 # error analysis
+scikit-learn==1.2.2 # error analysis (Shapely Value)
+geopandas==1.0.1 # spatial lag
