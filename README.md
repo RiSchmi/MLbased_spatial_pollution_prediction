@@ -4,8 +4,6 @@
 
 <h2> Structure and Notebooks: </h2>
 
-- <em> spatial_test_split.ipynb</em>: considerations regarding stratified, spatial data split
-- <em> spatial_lag.ipynb</em>: comparing different distance based methods for spatial lag value
 - <em> random_forest.ipynb</em>: RF Regressor for prediction
 - <em> graph_neural_network.ipynb + utilities</em>: utilization of gnn
 - <em> analysis_error_feature.ipynb</em>: comprehensive model comparison, including: performance metrics, feature-wise and temporal residual analysis, feature importance through Shapley values
