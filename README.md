@@ -7,6 +7,7 @@
 - <em> random_forest.ipynb</em>: RF Regressor for prediction
 - <em> graph_neural_network.ipynb + utilities</em>: utilization of gnn
 - <em> analysis_error_feature.ipynb</em>: comprehensive model comparison, including: performance metrics, feature-wise and temporal residual analysis, feature importance through Shapley values
+- <em>Thesis_spatial_pollution_prediction.pdf</em>: detailed theoretical describtion of architecture and data transformation
 
 
 <h2> Data source and Acknowledgement: </h2>
