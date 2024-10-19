@@ -4,7 +4,9 @@
 
 <h2> Structure and Notebooks: </h2>
 
-- <em> random_forest.ipynb</em>: RF Regressor for prediction
+- <em> RF_model.ipynb</em>: RF Regressor for prediction
+- <em> RF_model_wrapper_importance.ipynb</em>: global feature importance through wrapper-based retraining for RF Regressor
+- <em> RF_model_hyperparameter_tuning.ipynb</em>: incremental hyperparameter section for RF Regressor
 - <em> graph_neural_network.ipynb + utilities</em>: utilization of gnn
 - <em> analysis_error_feature.ipynb</em>: comprehensive model comparison, including: performance metrics, feature-wise and temporal residual analysis, feature importance through Shapley values
 - <em>Thesis_spatial_pollution_prediction.pdf</em>: detailed theoretical describtion of architecture and data transformation
@@ -12,7 +14,7 @@
 
 <h2> Data source and Acknowledgement: </h2>
 
-The dataset is constructed with the intersection of multiple geological and meteorological datasets by the [Berlin Geo Portal](https://www.berlin.de/sen/sbw/stadtdaten/geoportal/) and the [German Weather Serves(Deutscher Wetter Dienst)](https://opendata.dwd.de/climate_environment/CDC/). The dataset and feature engineering including missing data imputation, multicollinearity and EDA are separately addressed in the repositories: [MLbased_meteorological_data_imputation](https://github.com/RiSchmi/MLbased_meteorological_data_imputation). The usage of the geological and meteorological data is regulated by the "Creative Commons BY 4.0" (CC BY 4.0) and detailed in <em>License</em>.
+The dataset is constructed with the intersection of multiple geological and meteorological datasets by the [Berlin Geo Portal](https://www.berlin.de/sen/sbw/stadtdaten/geoportal/) and the [German Weather Serves(Deutscher Wetter Dienst)](https://opendata.dwd.de/climate_environment/CDC/). The dataset and feature engineering including missing data imputation, multicollinearity and EDA are separately addressed in the repositories: construction of [berlin_land_use_dataset](https://github.com/RiSchmi/berlin_land_use_dataset) and [MLbased_meteorological_data_imputation](https://github.com/RiSchmi/MLbased_meteorological_data_imputation). The usage of the geological and meteorological data is regulated by the "Creative Commons BY 4.0" (CC BY 4.0) and detailed in <em>License</em>.
 
 Vu, V., Nguyen, D., Nguyen, T., Nguyen, Q., P.L., N., & Huynh, T. (2024). Self-supervised air quality estimation with graph neural network assistance and attention enhancement. Neural Computing and Applications. https://doi.org/https://doi.org/10.1007/s00521-024-09637-7
 
